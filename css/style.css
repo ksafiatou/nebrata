@@ -5,3 +5,17 @@
 .navbar-nav{
     margin-left: 100px;
 }
+.presentation{
+    font-size: 10px;
+    padding: 30px;
+    border-top: 10px solid rgba(255, 136, 39, 0.842);
+    
+    
+    border-radius: 30px;
+}
+.presentation h1 {
+    font-size:30px;
+}
+.presentation small{
+    color: rgba(15, 16, 17, 0.5);
+}
