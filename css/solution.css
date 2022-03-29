@@ -1,0 +1,42 @@
+/* header */
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.nav-link{
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 100px;
+}
+
+/*-----------END header-----------*/
+
+.dm{
+    margin-top: 130px;
+    background-color:rgba(255, 136, 39, 0.842) ;
+}
+.se{
+    background-color: darkblue;
+}
+.support{
+    margin-left: 0px;
+}
+
+/*----------------footer----------------*/
+
+.foo h4{
+    color:#fff;
+}
+.footer{
+    background-color: darkblue;
+}
+a{
+    text-decoration: none;
+}
+.foo a, .foo i{
+    color: rgba(255, 136, 39, 0.842);
+    font-size: 20px;
+}

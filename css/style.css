@@ -1,12 +1,25 @@
-
+/* header */
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
 .nav-link{
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .navbar-nav{
     margin-left: 100px;
 }
+
+/*-----------END header-----------*/
+
+.pre{
+    margin-top: 150px;
+}
 .presentation{
     font-size: 10px;
+    
     padding: 30px;
     border-top: 10px solid rgba(255, 136, 39, 0.842);
     
@@ -39,5 +52,20 @@
 .rea2{
     background-color: rgba(255, 136, 39, 0.842);
     margin: 20px;
+}
 
+/*----------------footer----------------*/
+
+.foo h4{
+    color:#fff;
+}
+.footer{
+    background-color: darkblue;
+}
+a{
+    text-decoration: none;
+}
+.foo a, .foo i{
+    color: rgba(255, 136, 39, 0.842);
+    font-size: 20px;
 }
