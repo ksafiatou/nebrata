@@ -8,7 +8,11 @@
 a{
     text-decoration: none;
 }
-.foo a, .foo i{
-    color: rgba(255, 136, 39, 0.842);
+i,.foo p{
+    
+    font-size: 30px;
+}
+.foo a{
+    
     font-size: 20px;
 }
