@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>NEBRATA</title>  
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="css/style.css">
     <title>NEBRATA</title>
    
@@ -14,58 +15,58 @@
 <body class="container-fluid" width="100%"> 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand img-fluid" href="#"><img src="img/logoNebra.png" height="90px" alt=""></a>
+      <a class="navbar-brand img-fluid" href="index.html"><img src="img/logoNebra.png" height="90px" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
           <li class="nav-item">
-            <a class="nav-link active text-warning" aria-current="page" href="#">ACCUEIL   </a>
+            <a class="nav-link active text-warning" aria-current="page" href="index.html">ACCUEIL   </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link  dropdown-toggle text-warning" href="#"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link  dropdown-toggle"   id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               INTERVENTON</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item text-warning" href="#">solution</a></li>
-                <li><a class="dropdown-item text-warning" href="#">services</a></li>
+                <li><a class="dropdown-item " href="sousp/solution.html#solution">solution</a></li>
+                <li><a class="dropdown-item " href="sousp/solution.html#service">services</a></li>
               </ul>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-warning" href="#">
+            <a class="nav-link " href="sousp/realisation.html">
               REALISATION
             </a>
            
           </li>
           <li class="nav-item">
-            <a class="nav-link text-warning " href="">A-PROPOS</a>
+            <a class="nav-link " href="sousp/apropos.html">A-PROPOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-warning ">DEVIS</a>
+            <a class="nav-link " href="devis.html">DEVIS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-warning">CONTACT</a>
+            <a class="nav-link ">CONTACT</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <div class="row pre">
-    <div class="col presentation">
+    <div class="col-md-6 presentation">
       <h1>Bienvenue sur NEBRATA le reference numerique au BURKINA FASO et partout en Afrique <br>
         <h1>
           <small>Neb’Rata Consulting and Innovation est une startup Editeur de progiciels métiers et une SSII spécialisée dans l’intégration des solutions, l’assistance, la formation, le support et la mise en œuvre des infrastructures systèmes</small>
     </div>
-    <div class="col"><img src="img/im1.webp" alt=""></div>
+    <div class="col-md-6"><img src="img/im1.webp" class="img-fluid"></div>
   </div>
-  <div class="row ">
-    <div class="col-4 offset-4 domaine">
+  <div class="row mt-5">
+    <div class="col-md-6 offset-md-4 domaine">
      <h2>DOMAINE D'INTERVENTON</h2> 
     </div>
    </div>
    
   <div class="row">
-    <div class="col-10 offset-1">
+    <div class="col-md-10 offset-1">
       <div id="carouselExampleCaptions" class="carousel slide caro" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -113,30 +114,27 @@
     </div>
   </div>
   <div class="row">
-    <div class="col offset-1">
-      <div class="card" style="width: 18rem;">
-        <img src="img/poste.jpg" class="card-img-top" alt="..." height="200px">
+    <div class="col-md-4  ">
+      <div class="card">
+        <img src="img/poste.jpg" class="card-img-top imgs" alt="..." height="200px">
         <div class="card-body">
-          <h5 class="card-title">Conception du Progiciel GOPOST – La Poste Burkina Faso</h5>
-          <a href="#" class="btn btn-primary">details</a>
+          <h5 class="card-title t">Conception du Progiciel GOPOST – La Poste Burkina Faso</h5>
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card" style="width: 18rem; ">
-        <img src="img/JACKSON-200x160.png" class="card-img-top" alt="..." height="200px">
+    <div class=" col-md-4">
+      <div class="card" >
+        <img src="img/JACKSON-200x160.png" class="card-img-top imgs" alt="..." height="200px">
         <div class="card-body">
-          <h5 class="card-title">Acquisition de Licences Oracle – Jackson Assurances BF</h5>
-          <a href="#" class="btn btn-primary">details</a>
+          <h5 class="card-title t">Acquisition de Licences Oracle – Jackson Assurances BF</h5>
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="img/IMG FONER.jpg" class="card-img-top" alt="..." height="200px">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/IMG FONER.jpg" class="card-img-top imgs" alt="..." height="200px">
         <div class="card-body">
-          <h5 class="card-title">Assistance et de support technique Annuel – FONER <br><br></h5>
-          <a href="#" class="btn btn-primary">details</a>
+          <h5 class="card-title t">Assistance et de support technique Annuel – FONER </h5>
         </div>
       </div>
     </div>
@@ -180,21 +178,21 @@
         </div>
       </div>
     </div>
-    <div class="row footer ">
+    <div class="row footer mt-5 pt-2 ">
       <div class="col foo">
         <img src="img/logoNebra.png" alt="">
       </div>
-      <div class="col foo">
-       <h4> LIENS UTILES</h4> <br> <a href="">services</a> <br><a href=""> realisation</a> <br> <a href=""> apropos</a> <br> <a href=""> devis</a>
+      <div class="col foo text-warning">
+       <h4 class="text-light"> LIENS UTILES</h4> <a href="sousp/solution.html" class="text-warning">Services</a> <br><a class="text-warning" href="sousp/realisation.html"> realisation</a> <br> <a class="text-warning" href="sousp/apropos.html"> apropos</a> <br> <a class="text-warning" href="sousp/devis.html"> devis</a>
       </div>
       <div class="col foo">
        <h4> CONTACT</h4> <br> 
-        <i class="fa-solid fa-phone-volume">+22654595070</i>
+       <p class="text-warning"><i class="fa-solid fa-phone-volume"></i>+22654595075</p>
       </div>
       <div class="col foo ">
        <h4> RESEAU SOCIAUX</h4> <br>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook text-warning ms-5"></i>
+        <i class="fa-brands fa-linkedin text-warning ms-5"></i>
       </div>
     </div>
 

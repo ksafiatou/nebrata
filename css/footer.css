@@ -1,0 +1,18 @@
+
+.foo h4{
+    color:#fff;
+}
+.footer{
+    background-color: darkblue;
+}
+a{
+    text-decoration: none;
+}
+i,.foo p{
+    
+    font-size: 30px;
+}
+.foo a{
+    
+    font-size: 20px;
+}

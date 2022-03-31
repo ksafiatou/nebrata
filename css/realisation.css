@@ -1,17 +1,11 @@
-.navbar{
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    z-index: 2;
+h6{
+    font-size: 20px;
+    color:rgb(80, 64, 35);
+    border-left:10px orange solid;
+    border-right:10px orange solid;
+    border-radius: 30px;
+    
 }
-.nav-link{
-    margin-left: 40px;
-}
-.navbar-nav{
-    margin-left: 100px;
-}
-/*g--------dfg-------------*/
 
 .reali{
     margin-top: 150px;
@@ -25,18 +19,3 @@
 
 
 
-
-.foo h4{
-    color:#fff;
-}
-.footer{
-    background-color: darkblue;
-    
-}
-a{
-    text-decoration: none;
-}
-.foo a, .foo i{
-    color: rgba(255, 136, 39, 0.842);
-    font-size: 20px;
-}
