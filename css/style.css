@@ -45,3 +45,17 @@
     transform:scale(0.8);
     
 }
+.card{
+    width: 18rem;
+}
+.t{
+    font-size:100%;
+}
+/*-----------RESPONSIVITE--------------------*/
+@media (max-width: 921px) { 
+    .card, .imgs{
+        width: 80%;
+        margin-left: 10%;
+        height:80%;
+    }
+ }
