@@ -1,4 +1,11 @@
-
+h6{
+    font-size: 20px;
+    color:rgb(80, 64, 35);
+    border-left:10px orange solid;
+    border-right:10px orange solid;
+    border-radius: 30px;
+    
+}
 
 .reali{
     margin-top: 150px;
