@@ -12,7 +12,11 @@ i,.foo p{
     
     font-size: 20px;
 }
-.foo a{
-    
+a{
+    text-decoration: none;
     font-size: 20px;
+    transition:0.5s all;
+}
+.in:hover{
+    color:black;
 }

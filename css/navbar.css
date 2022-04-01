@@ -14,3 +14,14 @@ body{
 .navbar-nav{
     margin-left: 100px;
 }
+.navbar{
+    transition: 0.5s all ;
+    
+}
+.bg-light{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.541);
+    
+}
+.h8{
+    height: 80px;
+}

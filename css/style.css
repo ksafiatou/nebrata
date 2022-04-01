@@ -1,7 +1,7 @@
 .pre{
     margin-top: 150px;
 }
-.presentation{
+/* .presentation{
     font-size: 10px;
     
     padding: 30px;
@@ -9,9 +9,12 @@
     
     
     border-radius: 30px;
-}
-.presentation h1 {
+} */
+.presentation  {
     font-size:30px;
+    opacity: 0;
+    translate: -800px;
+    transition: 3s all ease-in-out;
 }
 .presentation small{
     color: rgba(15, 16, 17, 0.5);
@@ -59,3 +62,29 @@
         height:80%;
     }
  }
+
+
+
+.present{
+    opacity: 1;
+    translate:0px;
+
+}
+.card{
+    opacity: 0;
+    transform: rotate(30deg);
+    transition: all 1s;
+}
+.carte{
+    opacity: 1;
+    transform: rotate(0);
+}
+.mg{
+    opacity: 0;
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+.tg{
+    opacity: 1;
+    transform: rotate(0);
+}
