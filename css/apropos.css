@@ -4,6 +4,9 @@
 }
 .tx{
     font-size: 1.2rem;
+    opacity: 0.8;
+    transition: all 1s;
+    transform: scale(0);
 }
 .gr{
     font-size:1.2rem ;
@@ -11,5 +14,36 @@
 .texte{
     text-align: justify;
 }
+.orga{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px ;
+}
+.carte{
+    box-shadow: 1px 2px 3px 4px rgba(8, 8, 8, 0.842);
+    background-color:rgb(95, 37, 231)
 
-
+}
+.presentation{
+    opacity:1;
+    transform:scale(1);
+}
+.im{
+    transform:translate(500px);
+    opacity:0;
+    transform: rotate(180deg);
+    transition: 1.5s all;
+}
+.ims{
+    transform:translate(0);
+    opacity: 1;
+    transform: rotate(0);
+}
+.card{
+    opacity: 0;
+    transition: 1s all;
+    transform: scale(0);
+}
+.cart{
+    opacity: 1;
+    transform: scale(1);
+}

@@ -8,7 +8,7 @@
     background-color: darkblue;
 }
 .support{
-    margin-left: 0px;
+    margin-left: 10px;
 }
 
 .imgs{
@@ -19,7 +19,26 @@
     translate: 10px;
     transform:scale(0.8);
 }
+.titre{
 
-
-
+}
+.card{
+    transform:scale(1.5);
+    opacity:0;
+    transition:1s all;
+}
+.carte{
+    transform:scale(1);
+    opacity:1;
+}
+.titre{
+    transform:translate(300px);
+    opacity:0;
+    transition:1s all;
+}
+.tr{
+    transform:translate(0);
+    opacity:1;
+    
+}
 /*----------------footer----------------*/
