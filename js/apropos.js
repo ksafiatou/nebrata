@@ -10,7 +10,6 @@ window.addEventListener("scroll",()=>{
         navba.classList.remove("bg-light");
         navba.classList.add("bg-transparent");
         navba.classList.remove("h8");
-        
     }
 })
 window.addEventListener("load",()=>{
